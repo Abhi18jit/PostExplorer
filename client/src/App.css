@@ -1,0 +1,24 @@
+.nav{
+    background: linear-gradient(to right,rgba(209, 236, 250, 0.658),rgba(175, 243, 247, 0.503),rgba(209, 236, 250, 0.658));
+}
+.back-section{
+    background: linear-gradient(to right,rgb(245, 245, 255),white,rgb(245, 245, 255));
+   
+}
+.lefte{
+    background: linear-gradient(to left,rgba(198, 226, 242, 0.599),white);
+    
+}
+.righte{
+    background: linear-gradient(to right,rgba(222, 241, 252, 0.599),white);
+    
+}
+.card{
+    /* background: linear-gradient(to top,rgb(242, 237, 252),white); */
+    background: linear-gradient(to top,rgb(246, 242, 255),white ,white);
+    cursor: pointer;
+    transition: scale 0.1s ease;
+}
+.card:hover{
+    scale: 1.05;
+}
